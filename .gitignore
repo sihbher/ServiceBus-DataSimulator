@@ -22,3 +22,6 @@ bld/
 **/.DS_Store
 
 .env
+
+# VSCode
+.vscode
