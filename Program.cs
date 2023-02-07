@@ -101,7 +101,7 @@ namespace ServiceBus
             var telemetry = new Telemetry
             {
                 IDPlant = 1,
-                IDOrder = Random.Shared.Next(1, 20),
+                IDOrder = Random.Shared.Next(1, 100),
                 Amount = GetRandomNumber(1.0, 100000.0),
                 Price = GetRandomNumber(100.0, 200.0),
                 Dispatched = false,
