@@ -17,3 +17,7 @@ az container create \
   --image $image \
   --restart-policy OnFailure \
   --environment-variables 'Topic'=$topicName 'Interval'=$interval 'ConnectionString'=$connectionString
+
+
+#Get the logs
+az container logs --resource-group $resourceGroup --name $ciName
