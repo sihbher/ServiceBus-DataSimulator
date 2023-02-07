@@ -27,3 +27,8 @@ The code uses the `System.Text.Json` and `Azure.Identity` NuGet packages to seri
 
 ## Note
 The `GetTelemetry` method generates random telemetry data for demonstration purposes. You can modify this method to generate your own telemetry data.
+
+## Utility scripts
+Two useful scripts are provided:
+- [build-container.sh.](build-container.sh) Utility to build and push the docker image to you container repository
+- [run-containerinstance.sh.](run-containerinstance.sh) Command to run the container inside an Azure Container Instace service
